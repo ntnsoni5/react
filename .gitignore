@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+
+# Environment variables
+.env*
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Jest
+coverage/
+
+# React
+*.log
+*.log*
+*.test.js
+*.spec.js
+/__tests__/
+/*.js.snap
+
+# Build files
+build/
