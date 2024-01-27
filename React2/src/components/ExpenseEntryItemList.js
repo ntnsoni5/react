@@ -37,7 +37,7 @@ class ExpenseEntryItemList extends React.Component {
    getTotal() {
       let total = 0;
       for(var i = 0; i < this.state.items.length; i++) {
-         total += this.state.items[i].amount
+         total += this.state.items[i].amount;
       }
       return total;
    }
